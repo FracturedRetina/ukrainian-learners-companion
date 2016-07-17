@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<title>Ukrainina Number Practice</title>
+		<meta charset="utf-8" />
+		<meta content="width=device-width, initial-scale=1" name="viewport">
+		<meta id="author" content="Evan Shimoniak">
+
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		<!--**JavaScript**-->
+		<!--jQuery-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<!--Page Script-->
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<div id="content">
+			<button id="refresh">New Number</button>
+			<h1 id="number">0</h1>
+			<h2 id="feedback"></h2>
+			<input id="word-form"></input>
+			<form id="range">
+				<div>
+					<input type="radio" name="maxval" id="max10" value="10" checked/><span>0&ndash;10</span>
+					<input type="radio" name="maxval" id="max100" value="100" /><span>0&ndash;100</span>
+					<input type="radio" name="maxval" id="max1000" value="1000" /><span>0&ndash;1000</span>
+				</div>
+				<div>
+					<input type="radio" name="type" id="cardinal" value="cardinal" checked/><span>Cardinal</span>
+					<input type="radio" name="type" id="ordinal" value="ordinal" /><span>Ordinal</span>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>

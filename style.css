@@ -1,0 +1,52 @@
+body {
+	font-family: "Trebuchet MS", sans-serif;
+}
+table {
+	border-collapse: collapse;
+	display: inline;
+}
+
+th {
+	background-color: #EFEFEF;
+	border: 1px solid black;
+	padding: 5px 10px;
+	width: 0;
+}
+
+td {
+	padding: 5px;
+	border: 1px solid black;
+	width: 140px;
+}
+
+.footnote {
+	text-align: left;
+	caption-side: bottom;
+}
+
+.description {
+	float: left;
+	width: 275px;
+}
+
+.line {
+	margin: 0px;
+}
+
+.case {
+	margin-bottom: 20px;
+}
+
+table.pronouns td {
+	width: 67px;
+}
+
+table.adjectives td {
+	width: 0;
+}
+
+#content {
+	border: 1px solid gold;
+	margin: auto;
+	width: 600px;
+}
