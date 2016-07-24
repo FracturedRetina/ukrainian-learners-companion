@@ -10,7 +10,7 @@ th {
 	background-color: #EFEFEF;
 	border: 1px solid black;
 	padding: 5px 10px;
-	width: 0;
+	width: 1px;
 }
 
 td {
@@ -42,7 +42,7 @@ table.pronouns td {
 }
 
 table.adjectives td {
-	width: 0;
+	width: 1px;
 }
 
 #content {
