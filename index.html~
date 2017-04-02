@@ -1,0 +1,176 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link href="style.css" type="text/css" rel="stylesheet">
+	</head>
+	<body>
+		<div id="content">
+			<div id="nominative" class="case">
+				<div class="description">
+					<h1>Nominative</h1>
+					<p>Dictionary form"</p>
+					<p>Subject of setence</p>
+				</div>
+				<div class="rules">
+					<table class="pronouns">
+						<tr>
+							<td>я</td>
+							<td>ми</td>
+						</tr>
+						<tr>
+							<td>ти</td>
+							<td>ви</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="line">він</p>
+								<p class="line">вона</p>
+								<p class="line">воно</p>
+							</td>
+							<td>воні</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div id="accusative" class="case">
+				<div class="description">
+					<h1>Accusative</h1>
+					<p>Direct object, except of бути</p>
+				</div>
+				<div class="rules">
+					<table class="pronouns">
+						<tr>
+							<td>мене</td>
+							<td>нас</td>
+						</tr>
+						<tr>
+							<td>тебе</td>
+							<td>вас</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="line">його</p>
+								<p class="line">її</p>
+								<p class="line">його</p>
+							</td>
+							<td>їх</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div id="dative" class="case">
+				<div class="description">
+					<h1>Dative</h1>
+					<p>Indirect object</p>
+				</div>
+				<div class="rules">
+					<table class="pronouns">
+						<tr>
+							<td>мені</td>
+							<td>нам</td>
+						</tr>
+						<tr>
+							<td>тебі</td>
+							<td>вам</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="line">йому</p>
+								<p class="line">їй</p>
+								<p class="line">йому</p>
+							</td>
+							<td>їм</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div id="genitive" class="case">
+				<div class="description">
+					<h1>Genitive</h1>
+					<p>Apostrohe s</p>
+				</div>
+				<div class="rules">
+					<table class="pronouns">
+						<tr>
+							<td>мене</td>
+							<td>нас</td>
+						</tr>
+						<tr>
+							<td>тебе</td>
+							<td>вас</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="line">його</p>
+								<p class="line">її</p>
+								<p class="line">його</p>
+							</td>
+							<td>їх</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div id="instrumental" class="case">
+				<div class="description">
+					<h1>Instrumental</h1>
+					<p>Something used to accomplish the action of a verb</p>
+				</div>
+				<div class="rules">
+					<table class="pronouns">
+						<tr>
+							<td>мною</td>
+							<td>нами</td>
+						</tr>
+						<tr>
+							<td>тобою</td>
+							<td>вами</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="line">ним</p>
+								<p class="line">нею</p>
+								<p class="line">ним</p>
+							</td>
+							<td>ними</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div id="vocative" class="case">
+				<div class="description">
+					<h1>Vocative</h1>
+					<p>Used when adressing someone directly</p>
+				</div>
+				<div class="rules">
+					
+				</div>
+			</div>
+			<div id="locative">
+				<div class="description">
+					<h1>Locative</h1>
+					<p>Gives location of an action</p>
+				</div>
+				<div class="rules">
+					<table class="pronouns">
+						<tr>
+							<td>на мені</td>
+							<td>на нас</td>
+						</tr>
+						<tr>
+							<td>на тобі</td>
+							<td>на вас</td>
+						</tr>
+						<tr>
+							<td>
+								<p class="line">на ньому</p>
+								<p class="line">на ній</p>
+								<p class="line">на ньому</p>
+							</td>
+							<td>на них</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

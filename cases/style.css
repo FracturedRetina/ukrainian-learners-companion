@@ -1,0 +1,48 @@
+td > p {
+    margin: 0px;
+}
+
+table {
+	border-collapse: collapse;
+	display: inline-grid;
+}
+
+th, td {
+	border: 1px solid black;
+	padding: 5px;
+	text-align: center;
+}
+
+#declension > div {
+	display: inline-table;
+	width: 33%;
+
+}
+
+.prepositions {
+	width: 325px;
+}
+
+.prepositions, .rules {
+	display: inline-table;
+}
+
+th {
+	background-color: #EFEFEF;
+	width: 0;
+}
+
+caption {
+	font-weight: bold;
+}
+
+.table-caption {
+	border: none;
+	text-align: left;
+	font-size: small;
+}
+
+.table-caption > ul {
+  margin: 0;
+  margin-left: -25px;
+}

@@ -1,0 +1,28 @@
+body {
+	font-family: "Trebuchet MS", sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+#content {
+	width: 268px;
+	height: 100px;
+	
+	position: absolute;
+	top: 0;
+   	bottom: 0;
+	left: 0;
+	right: 0;
+	
+	margin: auto;
+}
+
+#word-form {
+	width: 100%;
+}
+
+#feedback {
+	display: none;
+}
