@@ -31,3 +31,7 @@ h1 {
 #feedback {
 	display: none;
 }
+
+#clock-time {
+	margin: auto;
+}
