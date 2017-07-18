@@ -19,11 +19,15 @@ function refreshTime() {
 		$('#text-time').css("display", "none");
 		$('#clock-time').css("display", "block");
 		drawClock(hour, minute);
+		$('#content').height("350px");
 	} else {
 		$('#clock-time').css("display", "none");
 		$('#text-time').css("display", "block");
 		$('#text-time').text(getDigitialTime(hour, minute));
+		$('#content').height("150px");
 	}
+	//Hide previous feedback
+	$("#feedback").slideUp();
 }
 
 function getDigitialTime(hour, minute) {
