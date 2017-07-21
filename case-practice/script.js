@@ -1,7 +1,7 @@
 var consonant = "(й|ц|к|н|г|ш|щ|з|х|ґ|ф|в|п|р|л|д|ж|ч|с|м|т|б)";
 var noEnding = "(й|ц|к|н|г|ш|щ|з|х|ґ|ф|в|п|р|л|д|ж|ч|с|м|т|б|ь)";
 
-var cases = ["Nominative", "Genitive", "Dative", "Accusative", "Instrumental", "Locative", "Vocative"];
+var cases = [];
 
 var nounChanges;
 var dictionary;
@@ -62,7 +62,41 @@ function declineNoun(word, kase, plural, declension, animate, gentype) {
 	}
 }
 
+function refreshCases() {
+	$("input[type=checkbox]").each(function() {
+		var changed = "";
+		
+		if ($(this).attr("id") == "check-n") {
+			changed = "Nominative";
+		} else if ($(this).attr("id") == "check-g") {
+			changed = "Genitive";
+		} else if ($(this).attr("id") == "check-d") {
+			changed = "Dative";
+		} else if ($(this).attr("id") == "check-a") {
+			changed = "Accusative";
+		} else if ($(this).attr("id") == "check-i") {
+			changed = "Instrumental";
+		} else if ($(this).attr("id") == "check-l") {
+			changed = "Locative";
+		} else if ($(this).attr("id") == "check-v") {
+			changed = "Vocative";
+		}
+		
+		if ($(this).is(":checked")) {
+			if (changed != "") {
+				cases.push(changed);
+			}
+		} else {
+			var index = cases.indexOf(changed);
+			if (index != -1) {
+				cases.splice(index, 1);
+			}
+		}
+	});
+}
+
 function refreshWord() {
+	refreshCases();
 	currWord = dictionary[Math.floor(Math.random() * dictionary.length)];
 	$('#word').text(currWord[0]);
 	$('#case').text(cases[Math.floor(Math.random() * cases.length)]);
@@ -138,8 +172,10 @@ $(document).ready(function() {
 			}
 		}
 	});
-});
 	
+	$("input[type=checkbox]").change(refreshWord);
+});
+
 function parseCsv(text) {
 	var list = [];
 	var lines = text.split("\n");
