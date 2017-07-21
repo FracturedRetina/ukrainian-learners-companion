@@ -1,0 +1,9 @@
+word,declension,animacy,gentype,translation
+хата,1,false,,cottage
+земля,1,false,,earth
+історія,1,false,,story
+дід,2,true,1,grandfather
+театр,2,false,2,theater
+річ,3,false,,thing
+тінь,3,false,,shadow
+любов,3,false,,love
