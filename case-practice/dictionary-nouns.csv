@@ -4,6 +4,6 @@ word,declension,animacy,gentype,translation
 історія,1,false,,story
 дід,2,true,1,grandfather
 театр,2,false,2,theater
+будинок,2,false,2,house
 річ,3,false,,thing
 тінь,3,false,,shadow
-любов,3,false,,love
