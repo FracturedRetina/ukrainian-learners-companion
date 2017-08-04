@@ -40,8 +40,8 @@ function declineNoun(word, kase, plural, declension, animate, gentype) {
 	
 	for (var ending in change) {
 		if (change.hasOwnProperty(ending)) {
-			if (typeof ending != "string") {
-				ending = ending[gentype];
+			if (typeof change[ending] != "string" && change[ending] != undefined) {
+				change[ending] = change[ending][gentype - 1];
 			}
 			
 			if (change[ending][0] == "+") {
